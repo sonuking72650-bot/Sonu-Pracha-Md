@@ -1,0 +1,21 @@
+{
+  "name": " 𝗦𝗼𝗻𝘂 𝗣𝗿𝗮𝗰𝗵𝗮",
+  "description": " 𝗦𝗼𝗻𝘂 𝗣𝗿𝗮𝗰𝗵𝗮 WhatsApp bot made by ArslanMD official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot"," 𝗦𝗼𝗻𝘂 𝗣𝗿𝗮𝗰𝗵𝗮"," 𝗦𝗼𝗻𝘂 𝗣𝗿𝗮𝗰𝗵𝗮"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the  𝗦𝗼𝗻𝘂 𝗣𝗿𝗮𝗰𝗵𝗮 session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
